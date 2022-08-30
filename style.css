@@ -197,26 +197,6 @@ section .title::after{
     font-weight: 500;
 }
 
-/*
-===============================================================
-.home .home-content a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    color: crimson;
-    background: none;
-}
-================================================================
-*/
 
 /* about section styling */
 .about .title::after{
@@ -245,30 +225,6 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-
-/*
-=============================================================
-.about .about-content .right a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-
-.about .about-content .right a:hover{
-    color: crimson;
-    background: none;
-}
-===========================================================
-*/
-
-
 
 /* services section styling */
 .services, .clients{
@@ -348,48 +304,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
-.portfolio .portfolio-content .right .bars{
-    margin-bottom: 15px;
-}
-.portfolio .portfolio-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.portfolio .portfolio-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.portfolio .portfolio-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.portfolio .portfolio-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.portfolio-content .right .html::before{
-    width: 90%;
-}
-.portfolio-content .right .css::before{
-    width: 60%;
-}
-.portfolio-content .right .js::before{
-    width: 80%;
-}
-.portfolio-content .right .php::before{
-    width: 50%;
-}
-.portfolio-content .right .mysql::before{
-    width: 70%;
-}
+
 
 /* clients section styling */
 .clients .title::after{
@@ -610,14 +525,7 @@ footer{
     .home .home-content .text-3{
         font-size: 35px;
     }
-    /*
-    =========================================================
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
-    =========================================================
-    */
+
     .max-width{
         max-width: 930px;
     }
@@ -654,13 +562,7 @@ footer{
         font-size: 32px;
     }
 
-    /*
-============================================================
-    .home .home-content a{
-        font-size: 20px;
-    }
-============================================================
-    */
+
 
     .services .serv-content .card{
         width: 100%;
